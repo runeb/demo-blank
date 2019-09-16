@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "project": {
+    "name": "demo-blank"
+  },
+  "api": {
+    "projectId": "lnn6p9jm",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "@sanity/google-maps-input",
+    "@sanity/vision"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
